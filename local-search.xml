@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>白嫖Bilibili挂机脚本</title>
+    <link href="/2020/11/23/%E7%99%BD%E5%AB%96Bilibili%E6%8C%82%E6%9C%BA%E8%84%9A%E6%9C%AC/"/>
+    <url>/2020/11/23/%E7%99%BD%E5%AB%96Bilibili%E6%8C%82%E6%9C%BA%E8%84%9A%E6%9C%AC/</url>
+    
+    <content type="html"><![CDATA[<h2 id="BILIBILI-HELPER"><a href="#BILIBILI-HELPER" class="headerlink" title="BILIBILI-HELPER"></a>BILIBILI-HELPER</h2><blockquote><p>利用 GitHub Action 自动完成 Bilibili 每日任务，以白嫖的方式快速成为六级号</p></blockquote><a id="more"></a><h3 id="Github-fork-此项目"><a href="#Github-fork-此项目" class="headerlink" title="Github fork 此项目"></a>Github fork 此项目</h3><p>打开<a href="https://github.com/lycthp/BILIB">项目主页</a>，点击右上角的「Fork」，Github 会把这个仓库复制到你的账户下</p><p><img src="https://s3.ax1x.com/2020/11/23/DYh8uq.png" alt="fork项目"></p><h3 id="创建-Secrets"><a href="#创建-Secrets" class="headerlink" title="创建 Secrets"></a>创建 Secrets</h3><ol><li><p>浏览器打开并登录 bilibili，提取 Cookies</p><ul><li><p>按 F12 打开 「开发者工具」 找到「应用程序/Application」=&gt;「存储」=&gt;「Cookies」  </p></li><li><p>找到「<code>bili_jct</code>」、「<code>SESSDATA</code>」 「<code>DedeUserID</code>」三项，并复制对应的值<br>  <img src="https://s3.ax1x.com/2020/11/23/DYhOPg.png" alt="获取cookie"></p><p>  <img src="https://s3.ax1x.com/2020/11/23/DYh4xA.png" alt="获取cookie2">  </p></li></ul></li></ol><ol start="2"><li><p>创建对应的 GitHub Secrets  </p><ul><li><p>回到自己 fork 的项目，点击「Settings」=&gt; 「Secrets」 =&gt; 「New Secrets」添加以下 3 个 Secrets,填入对应的值</p><table><thead><tr><th align="center">变量</th><th align="center">值</th></tr></thead><tbody><tr><td align="center"><code>DEDEUSERID</code></td><td align="center">从 Cookie 中获取</td></tr><tr><td align="center"><code>SESSDATA</code></td><td align="center">从 Cookie 中获取</td></tr><tr><td align="center"><code>BILI_JCT</code></td><td align="center">从 Cookie 中获取</td></tr></tbody></table><p><img src="https://s3.ax1x.com/2020/11/23/DYhJbV.png" alt="填入cookie"></p></li></ul></li></ol><h3 id="手动执行"><a href="#手动执行" class="headerlink" title="手动执行"></a>手动执行</h3><ol><li><p>手动执行验证是否成功<br> 点击「Actions」，开启「workflows」<br> <img src="https://s3.ax1x.com/2020/11/23/DYhtET.png" alt="开启action"><br> 点击「run workflow」，手动运行脚本<br> <img src="https://s3.ax1x.com/2020/11/23/DYhU5F.png" alt="开启action2"></p></li><li><p>验证成功<br> <img src="https://s3.ax1x.com/2020/11/23/DYhw8J.png" alt="查看结果"><br> <img src="https://s3.ax1x.com/2020/11/23/DYh029.png" alt="查看结果"></p></li></ol><h3 id="定时任务"><a href="#定时任务" class="headerlink" title="定时任务"></a>定时任务</h3><ul><li>修改「./github/trigger.json」文件,将 <code>trigger</code> 的值改为 1，以开启 Actions 每日自动执行脚本<br>  <img src="https://s3.ax1x.com/2020/11/23/DYh1vn.png" alt="修改配置1"><br>  <img src="https://s3.ax1x.com/2020/11/23/DYhMCQ.png" alt="修改配置2"><br>  <img src="https://s3.ax1x.com/2020/11/23/DYhGD0.png" alt="修改配置3"></li></ul><h3 id="接入-Server-酱推送通知"><a href="#接入-Server-酱推送通知" class="headerlink" title="接入 Server 酱推送通知"></a>接入 Server 酱推送通知</h3><ol><li><p>打开 <a href="http://sc.ftqq.com/">Server酱</a> 点击「登入」  </p><p> <img src="https://s3.ax1x.com/2020/11/23/DYhlgs.png" alt="server1"></p></li><li><p>点击点发送消息，生成调用代码，点击微信推送，绑定微信账号  </p><p> <img src="https://s3.ax1x.com/2020/11/23/DYhQ3j.png" alt="server2"></p></li></ol><ol start="3"><li><p>在 Github Secrets 新建 <code>SERVERPUSHKEY</code> 变量，填入调用代码,至此，secrets 共有四个变量</p><p> <img src="https://s3.ax1x.com/2020/11/23/DYhNUU.png" alt="填入cookie2"></p></li><li><p>手机效果</p><p> <img src="https://s3.ax1x.com/2020/11/23/DYhgUO.jpg" alt="手机效果"></p></li></ol><h3 id="开启脚本自动更新"><a href="#开启脚本自动更新" class="headerlink" title="开启脚本自动更新"></a>开启脚本自动更新</h3><ol><li><p>在 <code>./github/workflows</code> 目录下创建 <code>auto_merge.yml</code> 文件，内容如下</p><p> <img src="https://s3.ax1x.com/2020/11/23/DYhBvR.png" alt="自动更新"></p></li></ol><pre><code>    name: auto_merge    on:    workflow_dispatch:    schedule:        - cron: 0 8 * * fri        # cron表达式,每周五16点执行一次，actions任务时区为UTC时区。     jobs:    merge:        runs-on: ubuntu-latest        steps:        - name: Checkout        uses: actions/checkout@v2        with:            ref: main            fetch-depth: 0            lfs: true        - name: Set git identity        run : |            git config --global user.email &quot;41898282+github-actions[bot]@users.noreply.github.com&quot;            git config --global user.name &quot;github-actions[bot]&quot;        - name: Load upstream commits        run: |            git update-index --assume-unchanged ./src/main/resources/config.json            git pull https://github.com/JunzhouLiu/BILIBILI-HELPER.git --log --no-commit        - name: Apply commit changes        run: |            if [ -f ./.git/MERGE_MSG ]; then            mkdir ./tmp &amp;&amp; cp ./.git/MERGE_MSG ./tmp/message            sed -i &quot;1c [bot] AutoMerging: merge all upstream&#39;s changes:&quot; ./tmp/message            sed -i &#39;/^\#.*/d&#39; ./tmp/message            git commit --file=&quot;./tmp/message&quot;            else            echo &quot;There is no merge commits.&quot;            fi        - name: Push Commits        env:            DOWNSTREAM_BRANCH: main            TZ: Asia/Shanghai        run: git push origin $DOWNSTREAM_BRANCH</code></pre><ol start="2"><li>点击提交即可<br><img src="https://s3.ax1x.com/2020/11/23/DYhcVK.png" alt="自动更新2"></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>Script</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Script</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>

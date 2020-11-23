@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>KimJungWha&#39;s Blog</title>
+  <icon>http://example.com/icon.png</icon>
+  <subtitle>安全菜鸟</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2020-11-23T16:07:27.257Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>KimJungWha</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>白嫖Bilibili挂机脚本</title>
+    <link href="http://example.com/2020/11/23/%E7%99%BD%E5%AB%96Bilibili%E6%8C%82%E6%9C%BA%E8%84%9A%E6%9C%AC/"/>
+    <id>http://example.com/2020/11/23/%E7%99%BD%E5%AB%96Bilibili%E6%8C%82%E6%9C%BA%E8%84%9A%E6%9C%AC/</id>
+    <published>2020-11-23T15:15:43.000Z</published>
+    <updated>2020-11-23T16:07:27.257Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;BILIBILI-HELPER&quot;&gt;&lt;a href=&quot;#BILIBILI-HELPER&quot; class=&quot;headerlink&quot; title=&quot;BILIBILI-HELPER&quot;&gt;&lt;/a&gt;BILIBILI-HELPER&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;利用 GitHub Action 自动完成 Bilibili 每日任务，以白嫖的方式快速成为六级号&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Script" scheme="http://example.com/categories/Script/"/>
+    
+    
+    <category term="Script" scheme="http://example.com/tags/Script/"/>
+    
+  </entry>
+  
+</feed>

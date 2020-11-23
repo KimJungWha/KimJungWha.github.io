@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>KimJungWha&#39;s Blog</title>
+    <link>http://example.com/</link>
+    
+    <image>
+      <url>http://example.com/icon.png</url>
+      <title>KimJungWha&#39;s Blog</title>
+      <link>http://example.com/</link>
+    </image>
+    
+    <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Mon, 23 Nov 2020 16:07:27 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>白嫖Bilibili挂机脚本</title>
+      <link>http://example.com/2020/11/23/%E7%99%BD%E5%AB%96Bilibili%E6%8C%82%E6%9C%BA%E8%84%9A%E6%9C%AC/</link>
+      <guid>http://example.com/2020/11/23/%E7%99%BD%E5%AB%96Bilibili%E6%8C%82%E6%9C%BA%E8%84%9A%E6%9C%AC/</guid>
+      <pubDate>Mon, 23 Nov 2020 15:15:43 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;BILIBILI-HELPER&quot;&gt;&lt;a href=&quot;#BILIBILI-HELPER&quot; class=&quot;headerlink&quot; title=&quot;BILIBILI-HELPER&quot;&gt;&lt;/a&gt;BILIBILI-HELPER&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;利用 GitHub Action 自动完成 Bilibili 每日任务，以白嫖的方式快速成为六级号&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="http://example.com/categories/Script/">Script</category>
+      
+      
+      <category domain="http://example.com/tags/Script/">Script</category>
+      
+      
+      <comments>http://example.com/2020/11/23/%E7%99%BD%E5%AB%96Bilibili%E6%8C%82%E6%9C%BA%E8%84%9A%E6%9C%AC/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
