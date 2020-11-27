@@ -15,7 +15,7 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 27 Nov 2020 15:36:06 GMT</pubDate>
+    <pubDate>Fri, 27 Nov 2020 15:39:14 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -30,6 +30,8 @@
       
       
       
+      
+      <category domain="http://example.com/categories/Docker/">Docker</category>
       
       
       <category domain="http://example.com/tags/vps/">vps</category>
