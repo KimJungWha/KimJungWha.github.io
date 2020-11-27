@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-11-23T16:07:27.257Z</updated>
+  <updated>2020-11-27T15:36:06.177Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>什么？你的服务器还在吃灰？</title>
+    <link href="http://example.com/2020/11/27/%E4%BB%80%E4%B9%88-%E4%BD%A0%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%BF%98%E5%9C%A8%E5%90%83%E7%81%B0/"/>
+    <id>http://example.com/2020/11/27/%E4%BB%80%E4%B9%88-%E4%BD%A0%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%BF%98%E5%9C%A8%E5%90%83%E7%81%B0/</id>
+    <published>2020-11-27T14:58:19.000Z</published>
+    <updated>2020-11-27T15:36:06.177Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;现在是虚拟化、云计算的时代，Docker 是虚拟化的重要技术。Docker 不仅十分好用，而且简单易上手，这里介绍两个有趣的 Docker 镜像。为了方便，我这里开个 Centos 虚拟机来假装服务器&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    
+    <category term="vps" scheme="http://example.com/tags/vps/"/>
+    
+    <category term="Docker" scheme="http://example.com/tags/Docker/"/>
+    
+    <category term="Linux" scheme="http://example.com/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>白嫖Bilibili挂机脚本</title>
