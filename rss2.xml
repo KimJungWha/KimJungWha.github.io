@@ -15,8 +15,89 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 27 Nov 2020 15:39:14 GMT</pubDate>
+    <pubDate>Tue, 22 Dec 2020 19:28:52 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>windows系统安装简单总结</title>
+      <link>http://example.com/2020/12/23/windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E7%AE%80%E5%8D%95%E6%80%BB%E7%BB%93/</link>
+      <guid>http://example.com/2020/12/23/windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E7%AE%80%E5%8D%95%E6%80%BB%E7%BB%93/</guid>
+      <pubDate>Tue, 22 Dec 2020 18:25:22 GMT</pubDate>
+      
+      <description>&lt;p&gt;&lt;img src=&quot;https://s3.ax1x.com/2020/12/23/rs6YCD.md.png&quot; alt=&quot;logo&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我们这学期的活动主要做了一件事，就是装系统，今天我们来做个总结，然后拓展一些知识&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+      
+      
+      
+      
+      <category domain="http://example.com/categories/Windows/">Windows</category>
+      
+      
+      <category domain="http://example.com/tags/Windows/">Windows</category>
+      
+      
+      <comments>http://example.com/2020/12/23/windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E7%AE%80%E5%8D%95%E6%80%BB%E7%BB%93/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>winser2012下网站搭建</title>
+      <link>http://example.com/2020/12/19/winser2012%E4%B8%8B%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</link>
+      <guid>http://example.com/2020/12/19/winser2012%E4%B8%8B%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</guid>
+      <pubDate>Fri, 18 Dec 2020 17:51:35 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h3 id=&quot;添加-IIS-功能&quot;&gt;&lt;a href=&quot;#添加-IIS-功能&quot; class=&quot;headerlink&quot; title=&quot;添加 IIS 功能&quot;&gt;&lt;/a&gt;添加 IIS 功能&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;在服务器管理面板点击添加角色和功能&lt;br&gt;&lt;img</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://example.com/categories/Windows/">Windows</category>
+      
+      
+      <category domain="http://example.com/tags/Windows/">Windows</category>
+      
+      
+      <comments>http://example.com/2020/12/19/winser2012%E4%B8%8B%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>winser2012系统安装</title>
+      <link>http://example.com/2020/12/19/winser2012%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/</link>
+      <guid>http://example.com/2020/12/19/winser2012%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/</guid>
+      <pubDate>Fri, 18 Dec 2020 17:47:48 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h3 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot; title=&quot;准备&quot;&gt;&lt;/a&gt;准备&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;VMware Workstation(图右)&lt;/li&gt;
+&lt;li&gt;Winser 2012 ISO 镜像(图左)&lt;br&gt;&lt;img</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://example.com/categories/Windows/">Windows</category>
+      
+      
+      <category domain="http://example.com/tags/Windows/">Windows</category>
+      
+      
+      <comments>http://example.com/2020/12/19/winser2012%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>什么？你的服务器还在吃灰？</title>
@@ -34,11 +115,7 @@
       <category domain="http://example.com/categories/Docker/">Docker</category>
       
       
-      <category domain="http://example.com/tags/vps/">vps</category>
-      
       <category domain="http://example.com/tags/Docker/">Docker</category>
-      
-      <category domain="http://example.com/tags/Linux/">Linux</category>
       
       
       <comments>http://example.com/2020/11/27/%E4%BB%80%E4%B9%88-%E4%BD%A0%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%BF%98%E5%9C%A8%E5%90%83%E7%81%B0/#disqus_thread</comments>
